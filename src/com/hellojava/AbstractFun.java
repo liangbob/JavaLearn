@@ -17,6 +17,11 @@ public class AbstractFun extends ABclass {
     public void setI(int ni){
         i = ni;
     }
+    public static void main(String [] args){
+        AbstractFun abf = new AbstractFun();
+        abf.setI(100);
+        System.out.print(abf.getI());
+    }
 }
 
 //定义一个抽象类与抽象类中的抽象方法,以封装为例

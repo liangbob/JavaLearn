@@ -1,0 +1,11 @@
+工厂模式
+
+FactoryMode    工厂模式
+--实现步骤：
+1，共同的接口
+2，不同的对象类
+3，不同的实现形式类编写类
+4，调用
+----普通工厂模式  NormalFactoryMode
+----多方法工厂模式  MethodFactoryMode
+----静态方法工厂模式  StaticMethodFactoryMode
