@@ -6,6 +6,9 @@ package com.hellojava;
  */
 public class MoreType {
     public static void main(String[] args){
+        int i = 0;
+
         System.out.print(312);
     }
+
 }
