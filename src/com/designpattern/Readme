@@ -1,6 +1,6 @@
 工厂模式
 
-FactoryMode    工厂模式
+Factory Pattern    工厂模式
 --实现步骤：
 1，共同的接口
 2，不同的对象类
@@ -9,3 +9,31 @@ FactoryMode    工厂模式
 ----普通工厂模式  NormalFactoryMode
 ----多方法工厂模式  MethodFactoryMode
 ----静态方法工厂模式  StaticMethodFactoryMode
+
+Abstract Factory Pattern 抽象工厂模式
+--实现原理
+抽象工厂其实就是工厂再添加一层接口，具体如下
+1，几个不同的接口，例如接口A，接口B
+2，相同的接口包含了不同的接口，接口C，包含了接口AB的形式
+3，定义多个类，包含刚刚的不相接口，类D，实现接口A，类E实现接口B
+4，定义类，方法的形式实现接口刚刚的2接口，定义类F，实现接口C，然后接口C又包含接口AB
+5，测试调用
+
+--适用情景
+一个产品分多个系列，几个系列都类似。每一个系列都死为了不同的情景而诞生，而且只能选一
+参考审核系统
+未审核/审核通过/审核不通过，三个系列
+
+
+抽象工厂模式对比多方法工厂模式
+
+
+Adapter Pattern 适配器模式
+
+Decorator Pattern 装饰者模式
+
+Observer Pattern 观察者模式
+
+Singleton Pattern 单例模式
+
+
