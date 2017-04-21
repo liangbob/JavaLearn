@@ -73,6 +73,18 @@ class StaticMethodFactoryMode{
 
 public class FactoryMode {
     public static void main(String[] args){
+        //test普通工厂模式
+        NormalFactoryMode nfm = new NormalFactoryMode();
+        nfm.getHuman("Male").eat();
+        nfm.getHuman("Female").eat();
 
+        //test方法工厂模式
+        MethodFactoryMode mfm = new MethodFactoryMode();
+        mfm.setMale().sleep();
+        mfm.setFemale().sleep();
+
+        //test静态方法工厂模式
+        StaticMethodFactoryMode.setMale().learn();
+        StaticMethodFactoryMode.setFemale().learn();
     }
 }
