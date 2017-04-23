@@ -7,9 +7,9 @@ package com.designpattern;
 
 //定义一个接口，对于所有的工厂模式的类都会用到
 interface Human{
-        public void sleep();
-        public void eat();
-        public void learn();
+    public void sleep();
+    public void eat();
+    public void learn();
 }
 //定义不同的类，指代各种不同场合的对象
 //定义male类

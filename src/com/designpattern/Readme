@@ -26,9 +26,12 @@ Abstract Factory Pattern 抽象工厂模式
 
 
 抽象工厂模式对比多方法工厂模式
-
+产品->产品登记结构->产品族
+工厂方法模式：针对的是 一个产品等级结构。
+抽象工厂模式：针对 多个产品等级结构。
 
 Adapter Pattern 适配器模式
+
 
 Decorator Pattern 装饰者模式
 
